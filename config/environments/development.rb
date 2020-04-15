@@ -6,7 +6,8 @@ Jets.application.configure do
   # Docs: http://rubyonjets.com/docs/email-sending/
 
   # config.action_mailer = ActiveSupport::OrderedOptions.new
-  puts "config/application/development.rb config.action_mailer.object_id: #{config.action_mailer.object_id}"
+  # puts "config/application/development.rb config.object_id: #{config.object_id}"
+  # puts "config/application/development.rb config.action_mailer.object_id: #{config.action_mailer.object_id}"
   config.action_mailer.show_previews = false # default: false
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
